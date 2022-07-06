@@ -1,7 +1,7 @@
 # File Merger and Searcher
 #### Hope Neels, CS622 Assignment 2
 
-**Note: this project was an assignment for CS622: Advanced Programming Techniques. Copying any portion and submitting it as your own work is a violation of Boston University's Academic Conduct Code and is prohibited.**
+*Note: this project was an assignment for CS622: Advanced Programming Techniques. Copying any portion and submitting it as your own work is a violation of Boston University's Academic Conduct Code and is prohibited.*
 
 ### Summary
 This Java command-line program sequentially merges files downloaded from https://webrobots.io/indiegogo-dataset, with a maximum of 10,000 lines copied from each file (to keep the file size manageable). The source files and merged file can be of type JSON or CSV. It then searches the resulting merged file for a given keyword, which is chosen as "fitness" for this demonstration. For each record in the merged file in which the keyword is found, that record's line number, "fund_raised_percent" column value, and "close_date" column value are printed to the console. Finally, the total number of records found containing that keyword is printed. The program demonstrates proper file I/O with buffered streams, regular expressions with Pattern and Matcher classes, and exception handling with nested try-catch clauses.
